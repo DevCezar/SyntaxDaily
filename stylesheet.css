@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+     font-size: large;
+     font-family: "light";
+     display: inline-block;
+     float: none;
+}
+h1 {
+    font-family: "moon";
+    font-size: 70px;
+    margin-bottom: -2px;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+a {
+    color: #ffffff;
+}
+
+
+/* Animated background */ 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Fonts */
+@font-face {
+    font-family:'roboto';
+    src: url(font/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: "light" ;
+    src: url(font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:"moon" ;
+    src: url(font/Moon2.0-Regular.otf);
+}
