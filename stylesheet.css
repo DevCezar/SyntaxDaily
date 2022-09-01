@@ -42,7 +42,26 @@ a:link {text-decoration: none;}
 a:hover {font-size: 24px; color:rgb(0, 0, 0);}
 A:hover{text-decoration: overline;}
 
+.showcase {
+    border: 2px solid red;
+    display: flex;
+    flex-flow: wrap row;
+    flex: auto;
+    justify-content: space-around;
+    align-items: start;
+    height: auto;
+    text-align: center;
+}
 
+.sub1,
+.sub2, 
+.sub3 {
+    display: flex;
+    flex-flow: wrap column;
+    flex: 1 1 Auto;
+    padding: 10px;
+    margin: 10px;
+}
 
 
 
